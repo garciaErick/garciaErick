@@ -7,8 +7,9 @@ Hello my name is [@garciaErick](https://github.com/garciaErick).
 * [x] Born and raised in **Ciudad Juárez, Chihuahua, Mexico** / El Paso Texas;
 * [x] 👀 Interested in **connecting, contributing, and learning new stuff**
 ```bash
-this is some text
-lol
+#!/bin/bash
+$ chmod a+x First.sh
+$ ./First.sh
 ```
 
 ![Alt txt](sailor_wet.png "hello")
