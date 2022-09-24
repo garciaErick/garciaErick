@@ -8,6 +8,7 @@ Hello my name is [@garciaErick](https://github.com/garciaErick).
 * [x] 👀 Interested in **connecting, contributing, and learning new stuff**
 ```console
 #!/bin/bash
+me@garciaErick:/path/to/repo/$ ./demoClient.sh
 chmod a+x First.sh
 $ ./First.sh
 ```
