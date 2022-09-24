@@ -1,7 +1,8 @@
 # Greetings mortal
 Hello my name is [@garciaErick](https://github.com/garciaErick).
 
-- [x] I am a Graduate with a Ms in Software Engineering; currently working for Amazon and living in `Seattle`. **Born and raised in Ciudad Juárez, Chihuahua, Mexico** / El Paso Texas. 
+* [x] I am a Graduate with a Ms in Software Engineering; currently working for Amazon and living in `Seattle`. 
+* [ ] **Born and raised in Ciudad Juárez, Chihuahua, Mexico** / El Paso Texas. 
 
 I try to live a minimalist lifestyle, play video games, exercise️, study japanese. 
 
