@@ -1,6 +1,6 @@
 ```console
 #!/bin/bash
-$ me@erick-garcia.com: chmod +x ~/path/to/my/introduction/introduction.sh
+me@erick-garcia.com: chmod +x ~/path/to/my/introduction/introduction.sh
 $ me@erick-garcia.com: $ ~/./path/to/my/introduction/introduction.sh &> stdout
 ```
 
