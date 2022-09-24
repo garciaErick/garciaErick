@@ -1,5 +1,5 @@
 // TODO actually put something here
-[](sailor_wet.png)
+![Alt txt](sailor_wet.png)
 - 👋 Hi, I’m @garciaErick
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
