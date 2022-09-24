@@ -16,6 +16,6 @@ Hello my name is [@garciaErick](https://github.com/garciaErick).
 * [x] Interested in connecting, contributing, and learning new stuff, so if you have a cool idea or just want to chat, send me a messagge
 
 
-![Alt txt](sailor_wet.png "hello")
+![Alt txt](sailor_wet.png "Oh, my new outfit is all wet!")
 
-- 📫 To know more about me you can head to my personal website [erick-garcia.com](https://erick-garcia.com/), or sent me a message at github@erick-garcia.com
+### 📫 To know more about me you can head to my personal website [erick-garcia.com](https://erick-garcia.com/), or sent me a message at github@erick-garcia.com
