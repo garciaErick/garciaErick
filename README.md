@@ -8,7 +8,7 @@ Hello my name is [@garciaErick](https://github.com/garciaErick).
 * [x] 👀 Interested in **connecting, contributing, and learning new stuff**
 ```sh
 #!/bin/bash
-$ chmod a+x First.sh
+chmod a+x First.sh
 $ ./First.sh
 ```
 
