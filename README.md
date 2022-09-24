@@ -4,5 +4,5 @@ I try to live a minimalist lifestyle, play video games, exercise️, study japan
 
 ![Alt txt](sailor_wet.png "hello")
 
-- 👀 I’m interested in ** connecting, contributing, and learning new stuff**
+- 👀 I’m interested in **connecting, contributing, and learning new stuff**
 - 📫 To know more about me you can head to my personal website [erick-garcia.com](https://erick-garcia.com/), or sent me a message at github@erick-garcia.com
