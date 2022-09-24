@@ -3,7 +3,7 @@
 $ me@erick-garcia.com: chmod +x ~/path/to/my/introduction/introduction.sh
 $ me@erick-garcia.com: ~/./path/to/my/introduction/introduction.sh &> stdout
 ```
-
+. . . printing introduction ( ꈍᴗꈍ)❣️
 # Greetings mortal
 
 Hello my name is [@garciaErick](https://github.com/garciaErick).
