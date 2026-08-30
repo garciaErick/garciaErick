@@ -18,5 +18,6 @@ jobs:
           github_token: ${{ secrets.STATS_TOKEN }}
           visualization_types: "leaderboard"
           output_path: "github-stats"
+          exclude_repos: "tsunderelkasten,tsunderelkasten-pipboy,ci-skeleton-3,Sails.js-template"
           dark_mode: "true"
           use_loc: "true"
