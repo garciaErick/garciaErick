@@ -18,4 +18,8 @@ Hello my name is [@garciaErick](https://github.com/garciaErick).
 
 ![Alt txt](sailor_wet.png "Oh, my new outfit is all wet!")
 
+## 📊 Languages I Write
+
+![Language Stats](github-stats/leaderboard_by_lines.png)
+
 ### 📫 To know more about me head to my personal website [erick-garcia.com](https://erick-garcia.com/), or DM at [github@erick-garcia.com](mailto:github@erick-garcia.com)
