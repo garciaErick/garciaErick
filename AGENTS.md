@@ -59,19 +59,19 @@ Note: with `use_loc: true` the volume suffix is `lines`. Disabling `use_loc`
 renames that file to `leaderboard_by_bytes.png` **and breaks the README
 embed** — update `README.md` if that config ever changes.
 
-## Maintenance: PAT Rotation (CRITICAL)
+## Maintenance: PAT Rotation
 
 The workflow authenticates via the `STATS_TOKEN` repository secret — a
-**classic Personal Access Token with `repo` scope and a 7-day expiration**.
+**classic Personal Access Token with `repo` scope and no expiration**.
 
-> **Every 7 days the scheduled run starts failing (401/403) until the
-> secret is rotated.** A stale chart on the profile page most likely means
-> an expired `STATS_TOKEN`.
+No scheduled rotation is required. Rotate only if the token is compromised
+or revoked. Note that a token's expiration cannot be edited after creation
+— "rotating" always means creating a new PAT and updating the secret.
 
 Rotation procedure:
 
 1. Create a fresh classic PAT at <https://github.com/settings/tokens>
-   (scope: `repo`, expiration: 7 days)
+   (scope: `repo`)
 2. Update the secret (never write the token to a file):
    ```bash
    gh secret set STATS_TOKEN --repo garciaErick/garciaErick
@@ -82,6 +82,13 @@ Rotation procedure:
    gh workflow run "Update Language Statistics" --repo garciaErick/garciaErick
    gh run watch --repo garciaErick/garciaErick
    ```
+
+If the chart on the profile page looks stale, check for a failed workflow
+run first — an expired or revoked `STATS_TOKEN` is the most likely cause.
+
+Security note: a never-expiring classic PAT with `repo` scope grants
+standing read/write access to every repo the account owns. Treat the
+token value accordingly.
 
 ## Conventions
 
