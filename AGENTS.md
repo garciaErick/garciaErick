@@ -20,12 +20,27 @@ application code, build system, or test suite here.
 ## Language Stats Workflow
 
 `.github/workflows/stats.yml` runs daily (00:00 UTC) and on manual dispatch.
-It uses the third-party action
-[`StefVuck/Github-Language-Stats@v1.2.0`](https://github.com/StefVuck/Github-Language-Stats)
-to:
+It uses **`garciaErick/Github-Language-Stats@main`** — a fork of
+[`StefVuck/Github-Language-Stats`](https://github.com/StefVuck/Github-Language-Stats)
+(local clone: `~/2-repos/Github-Language-Stats`) patched to add an
+`extra_repos` input, since upstream only analyzes repos with
+`affiliation='owner'` (personal repos — organization repos are invisible
+to it). The fork adds: `extra_repos`, which fetches extra repos by
+`owner/repo` full name and appends them to the analysis set.
+
+The workflow config:
+
+- `extra_repos: "Ashfall-Software/brews-n-battles"` — the owner's Godot
+  game (private org repo, primary language GDScript)
+- `exclude_repos` — Obsidian vaults (`tsunderelkasten`,
+  `tsunderelkasten-pipboy`, whose committed `.obsidian/plugins/*/main.js`
+  bundles previously flooded the stats with ~50MB of third-party JS) and
+  template repos (`ci-skeleton-3` with 1.8MB of PHP, `Sails.js-template`)
+
+The action then:
 
 1. Query the GitHub API for every repository owned by the token owner
-   (public + private; forks and HTML/CSS are excluded)
+   plus `extra_repos` (public + private; forks and HTML/CSS excluded)
 2. Shallow-clone each repo and count real lines of code (`use_loc: true`)
 3. Render a dark-mode leaderboard chart into `github-stats/`
 4. Commit and push the PNGs back to `main` as `github-actions[bot]`
