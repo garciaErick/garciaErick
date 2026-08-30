@@ -20,5 +20,6 @@ jobs:
           output_path: "github-stats"
           exclude_repos: "tsunderelkasten,tsunderelkasten-pipboy,ci-skeleton-3,Sails.js-template,quartz-tsunderick-themes,blog.tsunderick.space"
           extra_repos: "Ashfall-Software/brews-n-battles"
+          exclude_languages: "HTML,CSS,SCSS,PowerShell,Ruby,Makefile,PHP"
           dark_mode: "true"
           use_loc: "true"
