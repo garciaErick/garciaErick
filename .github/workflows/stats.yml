@@ -13,11 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: StefVuck/Github-Language-Stats@v1.2.0
+      - uses: garciaErick/Github-Language-Stats@main
         with:
           github_token: ${{ secrets.STATS_TOKEN }}
           visualization_types: "leaderboard"
           output_path: "github-stats"
           exclude_repos: "tsunderelkasten,tsunderelkasten-pipboy,ci-skeleton-3,Sails.js-template"
+          extra_repos: "Ashfall-Software/brews-n-battles"
           dark_mode: "true"
           use_loc: "true"
