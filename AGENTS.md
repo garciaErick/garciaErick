@@ -34,8 +34,11 @@ The workflow config:
   game (private org repo, primary language GDScript)
 - `exclude_repos` — Obsidian vaults (`tsunderelkasten`,
   `tsunderelkasten-pipboy`, whose committed `.obsidian/plugins/*/main.js`
-  bundles previously flooded the stats with ~50MB of third-party JS) and
-  template repos (`ci-skeleton-3` with 1.8MB of PHP, `Sails.js-template`)
+  bundles previously flooded the stats with ~50MB of third-party JS),
+  template repos (`ci-skeleton-3` with 1.8MB of PHP, `Sails.js-template`),
+  and TypeScript-heavy site repos (`quartz-tsunderick-themes`, ~80%
+  vendored Quartz framework source; `blog.tsunderick.space`, ~400KB of
+  generated test fixtures counted as code)
 
 The action then:
 
